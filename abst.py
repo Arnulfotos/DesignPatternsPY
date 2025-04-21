@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 class Drink(ABC):
     @abstractmethod
-    def get_quantity():
+    def get_quantity(self):
         pass
     def description(self):
         print("Soy una bebida")
